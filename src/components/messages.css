@@ -1,0 +1,11 @@
+.messages{
+    background: transparent;
+    padding: 0.5rem;
+    height: 75%;
+    overflow: scroll;
+}
+
+.message__content img{
+    height: 200px;
+    width: max-content;
+}

@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+    background: var(--color-primary);
+    height: 10%
+}
+
+.navbar__logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar__logout{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+span{
+    color: var(--color-white);
+}
+
+.navbar__user{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    object-fit: cover;
+}
